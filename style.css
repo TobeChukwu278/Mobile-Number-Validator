@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --phone-clr: #3fefe8;
+    --center-txt: center;
+    --gray-clr: #fff;
+}
+
+body {
+    background: linear-gradient(190deg, #FDBB2D 0%, #3A1C71 100%);
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    flex-direction: column;
+    color: var(--gray-clr);
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    width: 13rem;
+    align-self: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.container {
+    background: #a59c9c;
+    border: 3px solid #270808;
+    border-radius: 4px;
+    height: 50vh;
+    position: relative;
+    padding-top: 2rem;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    box-shadow: 0px 0px 20px rgb(43, 42, 42);
+}
+
+label {
+    font-size: small;
+}
+
+.background {
+    width: 4rem;
+    height: 1rem;
+    /* border-radius: 50%; */
+    position: absolute;
+    left: 30%;
+    top: 0;
+    background-color: #000;
+    margin-bottom: 3rem;
+}
+
+.camera {
+    width: .5rem;
+    height: .5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: inherit;
+    left: 37%;
+    top: 19%;
+}
+
+input {
+    margin-top: 1rem;
+    width: 80%;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    padding: .3rem;
+}
+
+input:focus {
+    border-bottom: 14px solid linear-gradient(to right, #FDBB2D, #3A1C71);
+    ;
+
+}
+
+footer {
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: .2rem;
+}
+
+button {
+    border: none;
+    padding: .2rem;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+button:hover {
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+}
